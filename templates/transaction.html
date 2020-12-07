@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printarto</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+
+
+    <!-- Header -->
+    <nav class="header">
+        <!-- header to red bar -->
+        <div class="bg-primary d-md-block d-none py-2">
+
+        </div>
+        <!-- header to red bar ends -->
+
+        <!-- top Back header -->
+        <div class="header__top-bar">
+            <nav class="navbar navbar-dark justify-content-between">
+                <nav class="nav mx-md-0 mx-auto">
+                    <a class="nav-link" href="" uk-icon="facebook"></a>
+                    <a class="nav-link" href="" uk-icon="twitter"></a>
+                    <a class="nav-link" href="" uk-icon="dribbble"></a>
+                    <a class="nav-link" href="" uk-icon="linkedin"></a>
+                </nav>
+                <nav class="nav ml-auto mx-md-0 mx-auto">
+                    <a class="nav-link" href="#">REFER & EARN</a>
+                    <a class="nav-link" href="#">SELL ON PRINTARTO</a>
+                    <a class="nav-link p-1" href="" uk-icon="user"></a>
+                    <a class="nav-link" href="#">US | ENGLISH</a>
+                </nav>
+            </nav>
+        </div>
+        <!-- top Back header ends -->
+
+        <!-- top mobile header -->
+        <nav class="navbar navbar-expand-lg navbar-light pt-3 d-flex d-md-none">
+            <a class="navbar-brand" href="#"><img src="../assets/black.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Holiday Gift Ideas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">New Arrivals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Best Sellers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Artists</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">New Arrivals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Best Sellers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Subjects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Digital Art</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Wall Art</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Lifestyle</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- top mobile header ends -->
+
+        <!-- top mobile search -->
+        <div class="col d-md-none d-flex position-relative">
+            <input class="form-control mr-sm-2 search-box" type="search" placeholder="Search" aria-label="Search">
+            <button class="search-btn" type="submit"><span uk-icon="search"></span></button>
+        </div>
+        <!-- top mobile search ends -->
+
+        <!-- search bar header on desktop view -->
+        <div class="header__search-bar border-bottom d-none d-md-block">
+            <nav class="navbar navbar-light justify-content-between">
+                <a class="navbar-brand"><img src="../assets/black.png" alt=""></a>
+                <div class="col d-lg-flex d-none position-relative">
+                    <input class="form-control mr-sm-2 search-box" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="search-btn" type="submit"><span uk-icon="search"></span></button>
+                </div>
+                <form class="form-inline header__search-bar--menu d-none d-md-block">
+                    <ul class="nav align-items-end">
+                        <li class="nav-item d-flex flex-wrap">
+                            <div class="mb-1 d-flex ">
+                                <a class="mb-1" href="" uk-icon="cart"></a>
+                                <span class="neo-round-box">0</span>
+                            </div>
+                        </li>
+                        <li class="nav-item d-flex flex-wrap">
+                            <div class="mb-1 d-flex">
+                                <a class="mb-1" href="" uk-icon="heart"></a>
+                                <span class="neo-round-box">0</span>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="wallet">
+                                <img class="mb-1" src="../assets/Icon ionic-md-wallet.svg" alt="">
+                                <div class="wallet__item">
+                                    <label for="exampleInputPassword1">DISCOUNT</label>
+                                    <input type="password" class="form-control pointer-none"
+                                        placeholder="$15,000">
+                                </div>
+                                <div class="wallet__item">
+                                    <label>CASH</label>
+                                    <input type="password" class="form-control pointer-none"
+                                        placeholder="$15,000">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-primary badge-pill small">Upload & Print</button>
+                        </li>
+                    </ul>
+                </form>
+            </nav>
+            <div class="col d-flex d-lg-none my-3 position-relative">
+                <input class="form-control mr-sm-2 search-box" type="search" placeholder="Search" aria-label="Search">
+                <button class="search-btn" type="submit"><span uk-icon="search"></span></button>
+            </div>
+        </div>
+        <!-- search bar header on desktop view ends -->
+
+        <!-- Menu header desktop view -->
+        <div class="header__menu-bar border-bottom d-none d-md-block">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Holiday Gift Ideas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">New Arrivals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Best Sellers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Artists</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">New Arrivals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Best Sellers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Subjects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Digital Art</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Wall Art</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Lifestyle</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Menu header desktop view ends -->
+
+        <!-- mobile menu fixed bottom -->
+        <div class="header__mobile-menu">
+            <div class="col d-flex align-items-center">
+                <a href="" class="uk-icon-button mx-auto d-flex shadow bg-light" uk-icon="cart"></a>
+            </div>
+            <div class="col d-flex align-items-center">
+                <a href="" class="uk-icon-button mx-auto d-flex shadow bg-light" uk-icon="heart"></a>
+            </div>
+            <div class="col d-flex align-items-center">
+                <a href="" class="uk-icon-button mx-auto d-flex shadow bg-light p-2">
+                    <img src="../assets/Icon ionic-md-wallet.svg" alt="">
+                </a>
+            </div>
+            <div class="col d-flex align-items-center">
+                <a href="" class="uk-icon-button mx-auto d-flex shadow bg-light" uk-icon="upload"></a>
+            </div>
+        </div>
+        <!-- mobile menu fixed bottom ends -->
+    </nav>
+
+    
+    <div class="container-fluid d-flex align-items-start">
+        <div class="sidebar">
+            <div class="user-sec">
+                <img src="../assets/avatar-2.jpg" alt="">
+                <span>Raj Ronnie</span>
+            </div>
+            <div class="menu-item active">
+               <span class="uk-margin-small-right text-primary" uk-icon="dribbble"></span>
+               <span class="menu-item__title">Dashboard</span>
+            </div>
+            <div class="menu-item">
+                <span class="uk-margin-small-right text-primary" uk-icon="user"></span>
+              <span class="menu-item__title">My Profile</span>
+            </div>
+            <div class="menu-item">
+                <span class="uk-margin-small-right text-primary" uk-icon="image"></span>
+              <span class="menu-item__title">Gallery</span>
+            </div>
+            <div class="menu-item">
+                <span class="uk-margin-small-right text-primary" uk-icon="cart"></span>
+              <span class="menu-item__title">Orders</span>
+            </div>
+            <div class="menu-item">
+                <span class="uk-margin-small-right text-primary" uk-icon="credit-card"></span>
+              <span class="menu-item__title">Transaction</span>
+            </div>
+            <div class="menu-item">
+                <span class="uk-margin-small-right text-primary" uk-icon="dribbble"></span>
+              <span class="menu-item__title">Refferel</span>
+            </div>
+            <div class="menu-item">
+                <span class="uk-margin-small-right text-primary" uk-icon="dribbble"></span>
+              <span class="menu-item__title">Log Out</span>
+            </div>
+        </div>
+        <div class="col pr-0 d-flex flex-wrap mt-3 w-100">
+            
+            <div class="d-flex flex-wrap mt-4 content-container">
+                <div class="table-container">
+                    <div class="table px-sm-3 ">
+                        <div class="table__header">
+                            <div class="col">ID</div>
+                            <div class="col">Date</div>
+                            <div class="col">AMount</div>
+                            <div class="col">status</div>
+                            <div class="col">option</div>
+                        </div>
+                        <div class="table__body">
+                            <div class="col">15646345</div>
+                            <div class="col">12/02/2020</div>
+                            <div class="col">500</div>
+                            <div class="col">
+                                <span class="text-warning font-weight-bold">Pending</span>
+                            </div>
+                            <div class="col"><button class="btn btn-danger btn-sm">cancel</button></div>
+                        </div>
+                        <div class="table__body">
+                            <div class="col">15646345</div>
+                            <div class="col">12/02/2020</div>
+                            <div class="col">500</div>
+                            <div class="col">
+                                <span class="text-warning font-weight-bold">Pending</span>
+                            </div>
+                            <div class="col"><button class="btn btn-danger btn-sm">cancel</button></div>
+                        </div>
+                        <div class="table__body">
+                            <div class="col">15646345</div>
+                            <div class="col">12/02/2020</div>
+                            <div class="col">500</div>
+                            <div class="col">
+                                <span class="text-warning font-weight-bold">Pending</span>
+                            </div>
+                            <div class="col"><button class="btn btn-danger btn-sm">cancel</button></div>
+                        </div>
+                        <div class="table__body">
+                            <div class="col">15646345</div>
+                            <div class="col">12/02/2020</div>
+                            <div class="col">500</div>
+                            <div class="col">
+                                <span class="text-warning font-weight-bold">Pending</span>
+                            </div>
+                            <div class="col"><button class="btn btn-danger btn-sm">cancel</button></div>
+                        </div>
+                        <div class="table__body">
+                            <div class="col">15646345</div>
+                            <div class="col">12/02/2020</div>
+                            <div class="col">500</div>
+                            <div class="col">
+                                <span class="text-warning font-weight-bold">Pending</span>
+                            </div>
+                            <div class="col"><button class="btn btn-danger btn-sm">cancel</button></div>
+                        </div>
+                        <div class="table__body">
+                            <div class="col">15646345</div>
+                            <div class="col">12/02/2020</div>
+                            <div class="col">500</div>
+                            <div class="col">
+                                <span class="text-warning font-weight-bold">Pending</span>
+                            </div>
+                            <div class="col"><button class="btn btn-danger btn-sm">cancel</button></div>
+                        </div>
+                        <div class="table__body">
+                            <div class="col">15646345</div>
+                            <div class="col">12/02/2020</div>
+                            <div class="col">500</div>
+                            <div class="col">
+                                <span class="text-warning font-weight-bold">Pending</span>
+                            </div>
+                            <div class="col"><button class="btn btn-danger btn-sm">cancel</button></div>
+                        </div>
+                        <div class="table__body">
+                            <div class="col">15646345</div>
+                            <div class="col">12/02/2020</div>
+                            <div class="col">500</div>
+                            <div class="col">
+                                <span class="text-warning font-weight-bold">Pending</span>
+                            </div>
+                            <div class="col"><button class="btn btn-danger btn-sm">cancel</button></div>
+                        </div>
+                        <div class="table__body">
+                            <div class="col">15646345</div>
+                            <div class="col">12/02/2020</div>
+                            <div class="col">500</div>
+                            <div class="col">
+                                <span class="text-warning font-weight-bold">Pending</span>
+                            </div>
+                            <div class="col"><button class="btn btn-danger btn-sm">cancel</button></div>
+                        </div>
+            
+                        <div class="table__footer">
+                        <a class="text-white d-flex align-items-center">
+                            <span class="uk-margin-small-right" uk-icon="chevron-left"></span>
+                            <span>Previous</span>
+                        </a>
+                        <a class="text-white d-flex align-items-center">
+                            <span>Next</span>
+                            <span class="uk-margin-small-left" uk-icon="chevron-right"></span>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="pt-5">
+        <div class="container-fluid footer-1 px-0 py-5">
+            <div class="container">
+                <div class="d-flex flex-wrap">
+                    <div class="col-md mb-3">
+                        <img class="logo-footer" src="../assets/white.png" alt="">
+                        <ul class="d-flex flex-wrap p-0">
+                            <a class="text-white w-100 footer__link " [routerLink]="['/home/commingsoon']"
+                                routerLinkActive="link-active">
+                                <li class="nav-link pl-0 pb-0 small">About Us</li>
+                            </a>
+                            <a class="text-white w-100 footer__link " [routerLink]="['/home/commingsoon']"
+                                routerLinkActive="link-active">
+                                <li class="nav-link pl-0 pb-0 small">Refer & Earn</li>
+                            </a>
+                            <a class="text-white w-100 footer__link " [routerLink]="['/home/commingsoon']"
+                                routerLinkActive="link-active">
+                                <li class="nav-link pl-0 pb-0 small">Work from home </li>
+                            </a>
+                            <a class="text-white w-100 footer__link " [routerLink]="['/home/commingsoon']"
+                                routerLinkActive="link-active">
+                                <li class="nav-link pl-0 pb-0 small">Digital marketing internship</li>
+                            </a>
+                            <a class="text-white w-100 footer__link " [routerLink]="['/home/commingsoon']"
+                                routerLinkActive="link-active">
+                                <li class="nav-link pl-0 pb-0 small">Franchisee</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-md mb-3 newsletter-container">
+                        <label class="text-white w-100 mb-md-4 mb-2" for="">Newsletter</label>
+                        <p class="small text-light my-0 newsletter pb-1">Stay updated with our latest trends.</p>
+                        <div class="form-group position-relative mb-0 subscribe-input">
+                            <input type="email" class="form-control" placeholder="Enter email address">
+                            <button class="btn-primary rounded btn-send">
+                                <span uk-icon="icon: chevron-right"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md mb-3">
+                        <label class="text-white w-100 " for="">Contact</label>
+                        <div class="d-flex flex-wrap justify-content-center align-items-start">
+                            <div class="col px-0">
+                                <label class="footer-info mt-3 d-flex align-items-start " for="">
+                                    <span class="footer-icon" uk-icon="location"></span>
+                                    <label for="">Jags Furniture, Vyttila, Kochi - 682019.</label>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-wrap align-items-start justify-content-center">
+                            <div class="col px-0">
+                                <label class="footer-info" for="">
+                                    <span class="footer-icon" uk-icon="mail"></span>
+                                    <label for="">info@printarto.com</label>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-wrap align-items-start justify-content-center">
+                            <div class="col px-0">
+                                <label class="footer-info d-flex align-items-start" for="">
+                                    <span class="footer-icon" uk-icon="receiver"></span>
+                                    <label for="">+91 892 174 6526</label>
+                                </label>
+                            </div>
+                        </div>
+                        <ul class="nav mt-0">
+                            <li class="nav-item">
+                                <a class="nav-link px-0 mr-3 text-white" href="#"><img
+                                        src="../../../assets/image/fb.png" alt=""></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0 mr-3 text-white" href="#"><img
+                                        src="../../../assets/image/whatapp.png" alt=""></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0 mr-3 text-white" href="#"><img
+                                        src="../../../assets/image/twiter.png" alt=""></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-0 mr-3 text-white" href="#"><img
+                                        src="../../../assets/image/insta.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex w-100 align-items-start justify-content-center px-3 flex-wrap">
+                <a class="text-light mx-4 py-md-3 pb-2 pointer" href="/home/termsandconditions">
+                    <li class="nav-link pl-0 pb-0 small">Terms & Conditions</li>
+                </a>
+                <a class="text-light mx-4 py-md-3 pb-2 pointer" href="/home/privacypolicy">
+                    <li class="nav-link pl-0 pb-0 small">Privacy Policy</li>
+                </a>
+                <a class="text-light mx-4 py-md-3 pb-2 pointer" href="/home/returnpolicy">
+                    <li class="nav-link pl-0 pb-0 small">Return Policy</li>
+                </a>
+                <a class="text-light mx-4 py-md-3 pb-2 pointer" href="/home/packagingpolicy">
+                    <li class="nav-link pl-0 pb-0 small">Packaging Policy</li>
+                </a>
+            </div>
+            <div class="copyright-1 px-3">
+                Copyright 2020 All rights reserved | Powered by Cushbu Art Pvt Ltd
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://kit.fontawesome.com/ddcadd200c.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js"></script>
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>

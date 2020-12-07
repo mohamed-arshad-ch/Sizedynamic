@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+
+    
+
+    <section class="login-container my-5 mx-auto">
+        <span class="login__title">sign in</span>
+        <div class="d-flex flex-wrap mt-3">
+            <div class="form-group position-relative area-code pr-2 mt-4 mb-0">
+                <label class="mdrn-label">Code</label>
+                <input type="text" class="form-control mdrn-input" id="code" placeholder="Code">
+            </div>
+            <div class="form-group position-relative col px-0 mt-4 mb-0">
+                <label class="mdrn-label">Phone</label>
+                <input id="loginphone" type="text" class="form-control mdrn-input" id="exampleInputPassword1" placeholder="Phone">
+            </div>
+            <div class="form-group position-relative col-12 px-0 mt-4 mb-0">
+                <label class="mdrn-label">Password</label>
+                <input id="loginpassword" type="password" class="form-control mdrn-input" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="mt-3 mb-4 w-100 d-flex flex-wrap align-items-center justify-content-between">
+                <a href="{% url 'signup' %}">Sign Up</a>
+                <a href="#my-id" uk-toggle>Forgot Password</a>
+            </div>
+            <button id="loginbtn" class="btn btn-primary w-100 font-weight-bold py-2">Sign In</button>
+
+            <label class="or my-4">Or</label>
+            <div class="d-flex flex-wrap align-items-center justify-content-center w-100">
+                <a href="" class="social-log uk-icon-button mx-3 btn-info" uk-icon="facebook"></a>
+                <a href="" class="social-log uk-icon-button  mx-3 btn-primary" uk-icon="google-plus" ></a>
+                <a href="" class="social-log uk-icon-button mx-3 btn-info" uk-icon="linkedin"></a>
+            </div>
+        </div>
+    </section>
+
+
+{% endblock content %}
+    

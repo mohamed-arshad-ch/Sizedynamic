@@ -1,0 +1,872 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load static %}
+
+
+
+<section id="print__arto" class="printarto">
+    <div class="container mx-auto h-full">
+        <div class="printarto__container rounded h-full shadow">
+            <div class="w-full lg:w-1/2 px-3 printarto__pic-holder">
+                <!-- <div class="bg-placeholder"></div> -->
+                <div class="pic-holder__views">
+                    <div id="imgew3" class="col pr-0 pb-2"
+                        style="background: url('https://d23374kzy6ad81.cloudfront.net/assets/art_wall_bg_without_sofa-c2d689322d7da632cb604808cb2a6d99.jpg') 0% 0% / 100% 91.4% no-repeat rgb(255, 255, 255);cursor:pointer;">
+                        <div id="gty" class="firstview qvimg"
+                            style="height: 10px; padding-left: 0px; min-height: 80.208px;">
+                            <img class="shadow" id="thumb-artimage1" src="{% static 'assets/avatar-3.jpg' %}" style="border: 1px solid black; cursor: default; width: 20px; height:15px; display: inline-block; margin:
+                                5%;margin-left: 25px; margin-top: 20px; top: 64.8959px;">
+                        </div>
+                    </div>
+                    <div id="imgew2" class="col pr-0 pb-2"
+                        style="background: url('https://d23374kzy6ad81.cloudfront.net/assets/art_wall_bg_with_sofa-d42324aac780bc76490b014936cc7dba.jpg') 0% 0% / 100% 91.4% no-repeat rgb(255, 255, 255);cursor:pointer;">
+                        <div id="gty" class="firstview qvimg"
+                            style="height: 10px; padding-left: 0px; min-height: 80.208px;">
+                            <img class="shadow" id="thumb-artimage2" src="{% static 'assets/avatar-3.jpg' %}" style=" cursor: default; width: 20px; height:15px; display: inline-block; margin:
+                            15%;margin-left: 25px; margin-top: 20px; border: 1px solid black; top: 64.8959px;">
+                        </div>
+                    </div>
+                    <div id="imgew1" class="col pr-0 pb-2"
+                        style="background: url('https://d23374kzy6ad81.cloudfront.net/assets/art_wall_bg_without_sofa-c2d689322d7da632cb604808cb2a6d99.jpg') 0% 0% / 100% 91.4% no-repeat rgb(255, 255, 255);cursor:pointer;">
+                        <div id="gty" class="firstview qvimg"
+                            style="height: 10px; padding-left: 0px; min-height: 80.208px;">
+                            <img class="shadow" id="thumb-artimage3" src="{% static 'assets/avatar-3.jpg' %}" style="border: 1px solid black; cursor: default; width: 20px; height:15px; display: inline-block; margin:
+                                15%; margin-left: 25px; margin-top: 20px; top: 64.8959px;">
+                        </div>
+                    </div>
+                    <div id="imgew" class="col pr-0 pb-2"
+                        style="background: url('https://d23374kzy6ad81.cloudfront.net/assets/art_wall_bg_without_sofa-c2d689322d7da632cb604808cb2a6d99.jpg') 0% 0% / 100% 91.4% no-repeat rgb(255, 255, 255);cursor:pointer;">
+                        <div id="gty" class="firstview qvimg"
+                            style="height: 10px; padding-left: 0px; min-height: 80.208px;">
+                            <img class="shadow" id="thumb-artimage4" src="{% static 'assets/avatar-3.jpg' %}" style="border: 1px solid black; cursor: default; width: 20px; height:15px; display: inline-block; margin:
+                                15%; margin-left: 25px; margin-top: 20px; top: 64.8959px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col pic-holder__controler">
+                    <div id="ui" class="col-12 px-0 mb-3"
+                        style="background: url('https://d23374kzy6ad81.cloudfront.net/assets/art_wall_bg_without_sofa-c2d689322d7da632cb604808cb2a6d99.jpg') 0% 0% / 100% 91.4% no-repeat rgb(255, 255, 255);">
+
+                        <div class="firstview qvimg" style="height: 10px; padding-left: 0px; min-height: 420.208px;">
+                            <img class="shadow" id="thumb-artimage5" src="{% static 'assets/avatar-3.jpg' %}" style="border: 3px solid black; cursor: default; width: 40px; height:30px; display: inline-block; margin:
+                                5%;margin-left: 150px; margin-top: 100px; top: 64.8959px;">
+                        </div>
+
+
+
+
+                    </div>
+                    <div id="ui1" class="col-12 px-0 mb-3"
+                        style="background: url('https://d23374kzy6ad81.cloudfront.net/assets/art_wall_bg_without_sofa-c2d689322d7da632cb604808cb2a6d99.jpg') 0% 0% / 100% 91.4% no-repeat rgb(255, 255, 255);">
+
+                        <div class="firstview qvimg" style="height: 10px; padding-left: 0px; min-height: 420.208px;">
+                            <img class="shadow" id="thumb-artimage6" src="{% static 'assets/avatar-3.jpg' %}" style=" cursor: default; width: 40px; height:30px; display: inline-block; margin:
+                            15%;margin-left: 150px; margin-top:  100px;border: 3px solid black; top: 64.8959px;">
+                        </div>
+
+
+
+
+                    </div>
+                    <div id="ui2" class="col-12 px-0 mb-3"
+                        style="background: url('https://d23374kzy6ad81.cloudfront.net/assets/art_wall_bg_with_sofa-d42324aac780bc76490b014936cc7dba.jpg') 0% 0% / 100% 91.4% no-repeat rgb(255, 255, 255);">
+
+                        <div class="firstview qvimg" style="height: 10px; padding-left: 0px; min-height: 420.208px;">
+                            <img class="shadow" id="thumb-artimage7" src="{% static 'assets/avatar-3.jpg' %}" style=" border: 3px solid black; cursor: default; width: 40px; height:30px; display: inline-block; margin:
+                            15%; margin-left: 150px; margin-top: 100px;top: 64.8959px;">
+                        </div>
+
+
+
+
+                    </div>
+                    <div id="ui3" class="col-12 px-0 mb-3"
+                        style="background: url('https://d23374kzy6ad81.cloudfront.net/assets/art_wall_bg_without_sofa-c2d689322d7da632cb604808cb2a6d99.jpg') 0% 0% / 100% 91.4% no-repeat rgb(255, 255, 255);">
+
+                        <div class="firstview qvimg" style="height: 10px; padding-left: 0px; min-height: 420.208px;">
+                            <img class="shadow" id="thumb-artimage8" src="{% static 'assets/avatar-3.jpg' %}" style="border: 3px solid black; cursor: default; width: 40px; height:30px; display: inline-block; margin:
+                        15%;margin-left: 150px; margin-top: 100px; top: 64.8959px;">
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="col-12 px-0 mb-3" id="newdi">
+                        <img id="mainimg" class="w-100" src="{% static 'assets/avatar-3.jpg' %}" alt="">
+                    </div>
+                    <div class="col-12 px-0 d-flex">
+                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+
+                            <ul
+                                class="uk-slider-items uk-child-width-1-3 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-4@l">
+                                <li class="ml-2 rounded">
+                                    <img id="blackandwhite" src="{% static 'assets/avatar-3.jpg' %}" alt="">
+                                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                                        <p class="category-title font-bold">B & W</p>
+                                    </div>
+                                </li>
+                                <li class="ml-2 rounded">
+                                    <img id="heu50" src="{% static 'assets/avatar-3.jpg' %}" alt="">
+                                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                                        <p class="category-title font-bold">Warm</p>
+                                    </div>
+                                </li>
+                                <li class="ml-2 rounded">
+                                    <img id="satur5" src="{% static 'assets/avatar-3.jpg' %}" alt="">
+                                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                                        <p class="category-title font-bold">Style -1</p>
+                                    </div>
+                                </li>
+                                <li class="ml-2 rounded">
+                                    <img id="sepi70" src="{% static 'assets/avatar-3.jpg' %}" alt="">
+                                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                                        <p class="category-title font-bold">Style -1</p>
+                                    </div>
+                                </li>
+                                <li class="ml-2 rounded">
+                                    <img id="sepi100" src="{% static 'assets/avatar-3.jpg' %}" alt="">
+                                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                                        <p class="category-title font-bold">Style -1</p>
+                                    </div>
+                                </li>
+                                <!-- <li class="ml-2 rounded">
+                                    <img src="../assets/avatar-3.jpg" alt="">
+                                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                                        <p class="category-title font-bold">Style -1</p>
+                                    </div>
+                                </li>
+                                <li class="ml-2 rounded">
+                                    <img src="../assets/avatar-3.jpg" alt="">
+                                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                                        <p class="category-title font-bold">Style -1</p>
+                                    </div>
+                                </li>
+                                <li class="ml-2 rounded">
+                                    <img src="../assets/avatar-3.jpg" alt="">
+                                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                                        <p class="category-title font-bold">Style -1</p>
+                                    </div>
+                                </li>
+                                <li class="ml-2 rounded">
+                                    <img src="../assets/avatar-3.jpg" alt="">
+                                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                                        <p class="category-title font-bold">Style -1</p>
+                                    </div>
+                                </li>
+                                <li class="ml-2 rounded">
+                                    <img src="../assets/avatar-3.jpg" alt="">
+                                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                                        <p class="category-title font-bold">Style -1</p>
+                                    </div>
+                                </li> -->
+                            </ul>
+
+
+
+                        </div>
+                    </div>
+                    <div class="col-12 shadow py-4 mt-4 rounded">
+                        <div class=" flex">
+                            <span class="mr-2 small">Strength</span>
+                            <input id="ranger" class="uk-range" type="range" value="0" min="0" max="100" step="1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2 px-3 printarto__control">
+                <!-- <label class="switch mb-4">
+                    <input id="switch__print" type="checkbox" value="true">
+                    <span class="slider round">
+                        <span class="slider__content">
+                            <span id="print__type">NORMAL PRINT</span>
+                        </span>
+                    </span>
+                    <span class="lhs-name">NORMAL PRINT</span>
+                    <span class="rhs-name">DIGITAL PRINT</span>
+                </label> -->
+                <div class="col-12 py-3">
+                    <div class="drop__img">
+                        <img class="drop__tumbnail" src="" alt="">
+                        <a href="" class="rounded-btn text-primary" uk-icon="trash"></a>
+                        <input type="file" name="imagefile" id="imagefile">
+                        <div class="drop__detail">
+                            <span class="w-full block text-center">Drop your files here.</span>
+                            <span class="text-danger font-bold">or Browse</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <label id="imagevalidresult" for=""></label>
+                </div>
+                <div class="flex flex-wrap px-3" id="tabs-id">
+                    <div class="w-full">
+                        <ul class="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row">
+                            <li class="-mb-px last:mr-0 flex-auto text-center">
+                                <a class="text-decoration-0 text-xs font-bold uppercase px-5 py-3 shadow block leading-normal text-white bg-primary cursor-pointer"
+                                    onclick="changeAtiveTab(event,'tab-profile')">
+                                    PHOTO PRINT
+                                </a>
+                            </li>
+                            <li class="-mb-px  last:mr-0 flex-auto text-center">
+                                <a class="text-decoration-0 text-xs font-bold uppercase px-5 py-3 shadow block leading-normal text-primary bg-white cursor-pointer"
+                                    onclick="changeAtiveTab(event,'tab-settings')">
+                                    CANVAS PRINT
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="relative flex flex-col min-w-0 break-wordsw-full mb-6  rounded">
+                            <div class=" flex-auto">
+                                <div class="tab-content tab-space">
+                                    <div class="block" id="tab-profile">
+                                        <div class="flex justify-between px-3 mb-3">
+                                            <label class="inline-flex items-center">
+                                                <input id="sizetype" type="radio" class="form-radio" name="accountType"
+                                                    value="s6" checked>
+                                                <span class="ml-2">6" x 4"</span>
+                                            </label>
+                                            <span id="size1" class="currencys">49</span>
+
+                                        </div>
+                                        <div class="flex justify-between px-3 mb-3">
+                                            <label class="inline-flex items-center">
+                                                <input id="sizetype" type="radio" class="form-radio" name="accountType"
+                                                    value="a3">
+                                                <span class="ml-2">A3</span>
+                                            </label>
+                                            <span id="size2" class="currencys">49</span>
+                                        </div>
+                                        <div class="flex justify-between px-3 mb-3">
+                                            <label class="inline-flex items-center">
+                                                <input id="sizetype" type="radio" class="form-radio" name="accountType"
+                                                    value="a4">
+                                                <span class="ml-2">A4</span>
+                                            </label>
+                                            <span id="size3" class="currencys">49</span>
+                                        </div>
+                                        <div class="flex justify-between align-items-center px-3 mb-3">
+                                            <label class="inline-flex items-center">
+                                                <input id="sizetype" type="radio" class="form-radio" name="accountType"
+                                                    value="cs">
+                                                <span class="px-0 mx-2 col">Custom Size</span>
+                                                <select
+                                                    class="block appearance-none bg-gray-200 border border-gray-200 text-gray-700 p-2 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                                                    id="grid-state">
+
+                                                </select>
+                                            </label>
+                                            <span id="customesize" class="currencys">49</span>
+                                        </div>
+                                        <label for="">SELECT FRAME</label>
+                                        <div class="flex justify-start px-3 my-3">
+                                            <label class="inline-flex items-center">
+                                                <input type="radio" class="form-radio" name="frameType" value="black"
+                                                    id="frameType" checked>
+                                                <img class="border p-1 frame-selection"
+                                                    src="{% static 'assets/frames/Path 53.png' %}" alt="">
+                                            </label>
+                                            <label class="inline-flex items-center">
+                                                <input type="radio" class="form-radio" name="frameType" value="grey"
+                                                    id="frameType">
+                                                <img class="border p-1 frame-selection"
+                                                    src="{% static 'assets/frames/Path 54.png' %}" alt="">
+                                            </label>
+                                        </div>
+                                        <div class="d-flex flex-wrap align-items-center justify-content-right mt-4">
+                                            <div class="col">
+                                                <h3 id="tots" class="currencys font-weight-bold"></h3>
+                                            </div>
+                                            <div class="mx-fit-width button-section">
+                                                <button class="btn btn-outline-danger mr-2">customize</button>
+                                                <button type="button" id="checkout"
+                                                    class="btn btn-danger">checkout</button>
+                                                <button id="gy" type="button">sdff</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="hidden" id="tab-settings">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="d-flex flex-wrap container mb-4">
+    <div class="p-4 shadow rounded bg-white">
+        <h5 class="mb-2">Note:-</h5>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni sed odit vel optio ipsam maiores
+            laudantium
+            est deleniti ea nesciunt minima atque, sunt molestias doloribus, obcaecati error quibusdam facilis amet
+            non
+            laborum accusamus, perspiciatis saepe reiciendis. Amet error dignissimos eveniet.
+        </p>
+    </div>
+</div>
+
+
+
+<a class="uk-button uk-button-default mx-auto d-block w-50 my-5 font-weight-bold shadow bg-white py-3" href="#myModal"
+    uk-toggle>Modal Pop Location</a>
+
+
+<div id="myModal" class="uk-flex-top" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical rounded">
+
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+
+        <div class="location_pop">
+            <h3>Select your Delivery Location</h3>
+            <div class="form-group mt-4 mb-2">
+                <input type="text" class="form-control" id="mylo" placeholder="" autocomplete="on" runat="server">
+
+                <span class="location_marker" uk-icon="icon: location"></span>
+            </div>
+
+            <div class="location-results">
+                <div id="detectloc" class="col-12 d-flex py-2 border-bottom">
+                    <img src="{% static 'assets/Icon material-gps-fixed.svg' %}" alt="">
+                    <span class="text-primary">Detect Location</span>
+                </div>
+                <div class="col-12 d-flex flex-wrap py-2 border-bottom location-results__item">
+                    <label class="pl-4 w-100" for="">Thodupuzha East , kerala</label>
+                    <span class="pl-4 small mt-1">Thodupuzha , kerala</span>
+                </div>
+                <div class="col-12 d-flex flex-wrap py-2 border-bottom location-results__item">
+                    <label class="pl-4 w-100" for="">Thodupuzha East , kerala</label>
+                    <span class="pl-4 small mt-1">Thodupuzha , kerala</span>
+                </div>
+                <div class="col-12 d-flex flex-wrap py-2 border-bottom location-results__item">
+                    <label class="pl-4 w-100" for="">Thodupuzha East , kerala</label>
+                    <span class="pl-4 small mt-1">Thodupuzha , kerala</span>
+                </div>
+                <div class="col-12 d-flex flex-wrap py-2 border-bottom location-results__item">
+                    <label class="pl-4 w-100" for="">Thodupuzha East , kerala</label>
+                    <span class="pl-4 small mt-1">Thodupuzha , kerala</span>
+                </div>
+            </div>
+
+            <p class="small mt-3">
+                <b>Note:-</b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit esse illo animi
+                obcaecati consequatur! Consequatur.
+            </p>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+<div class="container text-center py-4">
+    <h3>WE HELP YOU TO TREASURE MEMORIES</h3>
+    <p class="w-3/4 mx-auto mt-3 mb-5">
+        We thrive to assist you in preserving your special moments forever. Our range of artistic collection
+        includes photo books, acrylic prints, metal prints, Photo pillow, photo calendar, Photo Mugs and many
+        others. Each of the product line ensures you relish the best experience.
+    </p>
+    <h3 class="text-primary font-weight-bold mb-4">CATEGORIES</h3>
+</div>
+
+
+<div class="container-fluid mb-5 pb-5 px-0 border-bottom ">
+    <div class="container">
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+
+            <ul
+                class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-6@l">
+                <li class="ml-2">
+                    <img src="{% static 'assets/course-tumb 1.png' %}" alt="">
+                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                        <p class="category-title">Lorem ipsum dolor sit.</p>
+                    </div>
+                </li>
+                <li class="ml-2">
+                    <img src="{% static 'assets/course-tumb 1.png' %}" alt="">
+                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                        <p class="category-title">Lorem ipsum dolor sit.</p>
+                    </div>
+                </li>
+                <li class="ml-2">
+                    <img src="{% static 'assets/course-tumb 1.png' %}" alt="">
+                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                        <p class="category-title">Lorem ipsum dolor sit.</p>
+                    </div>
+                </li>
+                <li class="ml-2">
+                    <img src="{% static 'assets/course-tumb 1.png' %}" alt="">
+                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                        <p class="category-title">Lorem ipsum dolor sit.</p>
+                    </div>
+                </li>
+                <li class="ml-2">
+                    <img src="{% static 'assets/course-tumb 1.png' %}" alt="">
+                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                        <p class="category-title">Lorem ipsum dolor sit.</p>
+                    </div>
+                </li>
+                <li class="ml-2">
+                    <img src="{% static 'assets/course-tumb 1.png' %}" alt="">
+                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                        <p class="category-title">Lorem ipsum dolor sit.</p>
+                    </div>
+                </li>
+                <li class="ml-2">
+                    <img src="{% static 'assets/course-tumb 1.png' %}" alt="">
+                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                        <p class="category-title">Lorem ipsum dolor sit.</p>
+                    </div>
+                </li>
+                <li class="ml-2">
+                    <img src="{% static 'assets/course-tumb 1.png' %}" alt="">
+                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                        <p class="category-title">Lorem ipsum dolor sit.</p>
+                    </div>
+                </li>
+                <li class="ml-2">
+                    <img src="{% static 'assets/course-tumb 1.png' %}" alt="">
+                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                        <p class="category-title">Lorem ipsum dolor sit.</p>
+                    </div>
+                </li>
+                <li class="ml-2">
+                    <img src="{% static 'assets/course-tumb 1.png' %}" alt="">
+                    <div class="uk-position-small uk-position-bottom-center uk-panel">
+                        <p class="category-title">Lorem ipsum dolor sit.</p>
+                    </div>
+                </li>
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                uk-slider-item="next"></a>
+
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-5 px-0">
+    <div class="container d-flex flex-wrap">
+        <div class="col-xl col-lg-3 col-md-4 col-6 mb-3 text-center">
+            <div class="logo-insta">
+                <img src="{% static 'assets/insta.png' %}" alt="">
+            </div>
+            <label class="social-logo__sup-title">lorem ipsum</label>
+            <label class="social-logo__title">lorem title ipsum</label>
+        </div>
+        <div class="col-xl col-lg-3 col-md-4 col-6 mb-3 text-center">
+            <div class="logo-pexels">
+                <img src="{% static 'assets/pexels.png' %}" alt="">
+            </div>
+            <label class="social-logo__sup-title">lorem ipsum</label>
+            <label class="social-logo__title">lorem title ipsum</label>
+        </div>
+        <div class="col-xl col-lg-3 col-md-4 col-6 mb-3 text-center">
+            <div class="logo-fliker">
+                <img src="{% static 'assets/flickr.png' %}" alt="">
+            </div>
+            <label class="social-logo__sup-title">lorem ipsum</label>
+            <label class="social-logo__title">lorem title ipsum</label>
+        </div>
+        <div class="col-xl col-lg-3 col-md-4 col-6 mb-3 text-center">
+            <div class="logo-fb">
+                <img src="{% static 'assets/fb.png' %}" alt="">
+            </div>
+            <label class="social-logo__sup-title">lorem ipsum</label>
+            <label class="social-logo__title">lorem title ipsum</label>
+        </div>
+        <div class="col-xl col-lg-3 col-md-4 col-6 mb-3 text-center">
+            <div class="logo-canva">
+                <img src="{% static 'assets/canva.png' %}" alt="">
+            </div>
+            <label class="social-logo__sup-title">lorem ipsum</label>
+            <label class="social-logo__title">lorem title ipsum</label>
+        </div>
+    </div>
+</div>
+<div class="container-fluid text-center py-4 mb-5 px-0">
+    <h3 class="text-primary font-weight-bold mb-4">SITE FEATURES</h3>
+
+    <div class="features__section">
+        <div class="d-flex flex-wrap container">
+            <div class="col mb-3">
+                <div class="circle-white">
+                    <img src="{% static 'assets/refund.png' %}" alt="">
+                </div>
+            </div>
+            <div class="col mb-3">
+                <div class="circle-white">
+                    <img src="{% static '/assets/shipping.png' %}" alt="">
+                </div>
+            </div>
+            <div class="col mb-3">
+                <div class="circle-white">
+                    <img src="{% static 'assets/refund-1.png' %}" alt="">
+                </div>
+            </div>
+            <div class="col mb-3">
+                <div class="circle-white">
+                    <img src="{% static 'assets/support.png' %}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mb-5">
+    <img src="{% static 'assets/banner.png' %}" alt="">
+</div>
+<div class="container d-flex flex-wrap align-items-center pb-4 over-x-hide">
+    <h3 class="mr-4 mb-0 font-weight-bold" for="">ARTIST</h3>
+    <hr class="col m-0 pr-0">
+
+    <div class="row mt-4">
+        <div class="col-12">
+            <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slider>
+
+                <ul
+                    class="uk-slider-items uk-child-width-1-4 uk-child-width-1-3@s uk-child-width-1-4@m uk-child-width-1-6@l">
+                    <li>
+                        <div class="col-12 mb-3 px-2">
+                            <div class="artist-card p-1">
+                                <img class="mx-auto w-100 mb-2" src="{% static 'assets/avatar-2.jpg' %}" alt="">
+                                <label for="" class="artist-card__title">Vargese Rony</label>
+                                <label for="" class="artist-card__subtitle">Australia</label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-12 mb-3 px-2">
+                            <div class="artist-card p-1">
+                                <img class="mx-auto w-100 mb-2" src="{% static 'assets/avatar-3.jpg' %}" alt="">
+                                <label for="" class="artist-card__title">Kann Lorenz</label>
+                                <label for="" class="artist-card__subtitle">Paris</label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-12 mb-3 px-2">
+                            <div class="artist-card p-1">
+                                <img class="mx-auto w-100 mb-2" src="{% static 'assets/avatar-4.jpg' %}" alt="">
+                                <label for="" class="artist-card__title">Mary Snowman</label>
+                                <label for="" class="artist-card__subtitle">Englend</label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-12 mb-3 px-2">
+                            <div class="artist-card p-1">
+                                <img class="mx-auto w-100 mb-2" src="{% static 'assets/avatar-5.jpg' %}" alt="">
+                                <label for="" class="artist-card__title">Dona Paramu</label>
+                                <label for="" class="artist-card__subtitle">India</label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-12 mb-3 px-2">
+                            <div class="artist-card p-1">
+                                <img class="mx-auto w-100 mb-2" src="{% static 'assets/avatar.jpg' %}" alt="">
+                                <label for="" class="artist-card__title">Ramanan Potty</label>
+                                <label for="" class="artist-card__subtitle">America</label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-12 mb-3 px-2">
+                            <div class="artist-card p-1">
+                                <img class="mx-auto w-100 mb-2" src="{% static 'assets/avatar-5.jpg' %}" alt="">
+                                <label for="" class="artist-card__title">Deena Paramu</label>
+                                <label for="" class="artist-card__subtitle">India</label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-12 mb-3 px-2">
+                            <div class="artist-card p-1">
+                                <img class="mx-auto w-100 mb-2" src="{% static 'assets/avatar-2.jpg' %}" alt="">
+                                <label for="" class="artist-card__title">Vargese Rony</label>
+                                <label for="" class="artist-card__subtitle">Australia</label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-12 mb-3 px-2">
+                            <div class="artist-card p-1">
+                                <img class="mx-auto w-100 mb-2" src="{% static 'assets/avatar-3.jpg' %}" alt="">
+                                <label for="" class="artist-card__title">Kann Lorenz</label>
+                                <label for="" class="artist-card__subtitle">Paris</label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-12 mb-3 px-2">
+                            <div class="artist-card p-1">
+                                <img class="mx-auto w-100 mb-2" src="{% static 'assets/avatar-4.jpg' %}" alt="">
+                                <label for="" class="artist-card__title">Mary Snowman</label>
+                                <label for="" class="artist-card__subtitle">Englend</label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-12 mb-3 px-2">
+                            <div class="artist-card p-1">
+                                <img class="mx-auto w-100 mb-2" src="{% static 'assets/avatar-5.jpg' %}" alt="">
+                                <label for="" class="artist-card__title">Dona Paramu</label>
+                                <label for="" class="artist-card__subtitle">India</label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-12 mb-3 px-2">
+                            <div class="artist-card p-1">
+                                <img class="mx-auto w-100 mb-2" src="{% static 'assets/avatar.jpg' %}" alt="">
+                                <label for="" class="artist-card__title">Ramanan Potty</label>
+                                <label for="" class="artist-card__subtitle">America</label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-12 mb-3 px-2">
+                            <div class="artist-card p-1">
+                                <img class="mx-auto w-100 mb-2" src="{% static 'assets/avatar-5.jpg' %}" alt="">
+                                <label for="" class="artist-card__title">Deena Paramu</label>
+                                <label for="" class="artist-card__subtitle">India</label>
+                            </div>
+                        </div>
+                    </li>
+
+
+                </ul>
+
+                <!-- <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+             -->
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="container d-flex flex-wrap align-items-center pb-5">
+    <h3 class="mr-4 mb-0 text-primary font-weight-bold" for="">SHOP BY DEPARTMENT</h3>
+    <hr class="col m-0 pr-0 d-md-block d-none">
+    <div class="d-flex flex-wrap mt-3 w-100 row m-0">
+        <div class="col-md-6 pr-0 px-0 pl-md-3">
+            <div class="department-card">
+                <img src="{% static 'assets/Rectangle 311.png' %}" alt="">
+                <div class="department-card__info">
+                    <label class="font-semibold" for="">Abstract</label>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 pr-0 px-0 pl-md-3">
+            <div class="department-card">
+                <img src="{% static 'assets/Rectangle 314.png' %}" alt="">
+                <div class="department-card__info">
+                    <label class="font-semibold" for="">Modern</label>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 pr-0 px-0 pl-md-3">
+            <div class="department-card">
+                <img src="{% static 'assets/Rectangle 314.png' %}" alt="">
+                <div class="department-card__info">
+                    <label class="font-semibold" for="">Realism</label>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 pr-0 px-0 pl-md-3">
+            <div class="department-card">
+                <img src="{% static 'assets/Rectangle 314.png' %}" alt="">
+                <div class="department-card__info">
+                    <label class="font-semibold" for="">Pop art</label>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 pr-0 px-0 pl-md-3">
+            <div class="department-card">
+                <img src="{% static 'assets/Rectangle 314.png' %}" alt="">
+                <div class="department-card__info">
+                    <label class="font-semibold" for="">Portrait</label>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 pr-0 px-0 pl-md-3">
+            <div class="department-card">
+                <img src="{% static 'assets/Rectangle 311.png' %}" alt="">
+                <div class="department-card__info">
+                    <label class="font-semibold" for="">Wall Art</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="container-fluid bg-testimonial">
+    <h3 class="mr-4 mb-0 text-primary font-weight-bold text-center" for="">TESTIMONIAL</h3>
+    <div class="px-md-0 px-3" uk-slider="center: true">
+
+        <div class="uk-position-relative uk-visible-toggle mt-4" tabindex="-1">
+
+            <ul class="uk-slider-items uk-child-width-1-2@s uk-grid testimonial-slider">
+                <li class="position-relative">
+                    <div class="testimonial-item">
+                        <img src="{% static 'assets/qoutes.svg' %}" alt="">
+                    </div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img class="rounded-img" src="{% static 'assets/avatar-2.jpg' %}" alt="">
+                        </div>
+                        <div class="uk-card-body">
+
+                            <p>
+                                We thrive to assist you in preserving your special moments forever. Our range of
+                                artistic collection includes photo books, acrylic prints, metal prints, Photo
+                                pillow, photo calendar, Photo Mugs and many others. Each of the product line ensures
+                                you relish the best experience.
+                            </p>
+                            <h3 class="uk-card-title text-primary font-weight-bold mt-3">Mandrik Jhonson</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="position-relative">
+                    <div class="testimonial-item">
+                        <img src="{% static 'assets/qoutes.svg' %}" alt="">
+                    </div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img class="rounded-img" src="{% static '/assets/avatar-4.jpg' %}" alt="">
+                        </div>
+                        <div class="uk-card-body">
+                            <p>
+                                We thrive to assist you in preserving your special moments forever. Our range of
+                                artistic collection includes photo books, acrylic prints, metal prints, Photo
+                                pillow, photo calendar, Photo Mugs and many others. Each of the product line ensures
+                                you relish the best experience.
+                            </p>
+                            <h3 class="uk-card-title text-primary font-weight-bold mt-3">Kora Agustine</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="position-relative">
+                    <div class="testimonial-item">
+                        <img src="{% static 'assets/qoutes.svg' %}" alt="">
+                    </div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img class="rounded-img" src="{% static 'assets/avatar-4.jpg' %}" alt="">
+                        </div>
+                        <div class="uk-card-body">
+                            <p>
+                                We thrive to assist you in preserving your special moments forever. Our range of
+                                artistic collection includes photo books, acrylic prints, metal prints, Photo
+                                pillow, photo calendar, Photo Mugs and many others. Each of the product line ensures
+                                you relish the best experience.
+                            </p>
+                            <h3 class="uk-card-title text-primary font-weight-bold mt-3">Kora Agustine</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="position-relative">
+                    <div class="testimonial-item">
+                        <img src="{% static 'assets/qoutes.svg' %}" alt="">
+                    </div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img class="rounded-img" src="{% static '/assets/avatar-4.jpg' %}" alt="">
+                        </div>
+                        <div class="uk-card-body">
+                            <p>
+                                We thrive to assist you in preserving your special moments forever. Our range of
+                                artistic collection includes photo books, acrylic prints, metal prints, Photo
+                                pillow, photo calendar, Photo Mugs and many others. Each of the product line ensures
+                                you relish the best experience.
+                            </p>
+                            <h3 class="uk-card-title text-primary font-weight-bold mt-3">Kora Agustine</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="position-relative">
+                    <div class="testimonial-item">
+                        <img src="{% static 'assets/qoutes.svg' %}" alt="">
+                    </div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img class="rounded-img" src="{% static 'assets/avatar-4.jpg' %}" alt="">
+                        </div>
+                        <div class="uk-card-body">
+                            <p>
+                                We thrive to assist you in preserving your special moments forever. Our range of
+                                artistic collection includes photo books, acrylic prints, metal prints, Photo
+                                pillow, photo calendar, Photo Mugs and many others. Each of the product line ensures
+                                you relish the best experience.
+                            </p>
+                            <h3 class="uk-card-title text-primary font-weight-bold mt-3">Kora Agustine</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="position-relative">
+                    <div class="testimonial-item">
+                        <img src="{% static 'assets/qoutes.svg' %}" alt="">
+                    </div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img class="rounded-img" src="{% static 'assets/avatar-4.jpg' %}" alt="">
+                        </div>
+                        <div class="uk-card-body">
+                            <p>
+                                We thrive to assist you in preserving your special moments forever. Our range of
+                                artistic collection includes photo books, acrylic prints, metal prints, Photo
+                                pillow, photo calendar, Photo Mugs and many others. Each of the product line ensures
+                                you relish the best experience.
+                            </p>
+                            <h3 class="uk-card-title text-primary font-weight-bold mt-3">Kora Agustine</h3>
+                        </div>
+                    </div>
+                </li>
+                <li class="position-relative">
+                    <div class="testimonial-item">
+                        <img src="{% static 'assets/qoutes.svg' %}" alt="">
+                    </div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img class="rounded-img" src="{% static 'assets/avatar-4.jpg' %}" alt="">
+                        </div>
+                        <div class="uk-card-body">
+                            <p>
+                                We thrive to assist you in preserving your special moments forever. Our range of
+                                artistic collection includes photo books, acrylic prints, metal prints, Photo
+                                pillow, photo calendar, Photo Mugs and many others. Each of the product line ensures
+                                you relish the best experience.
+                            </p>
+                            <h3 class="uk-card-title text-primary font-weight-bold mt-3">Kora Agustine</h3>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                uk-slider-item="next"></a>
+
+        </div>
+
+        <!-- <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul> -->
+
+    </div>
+</div>
+<script>
+   
+</script>
+{% endblock content %}

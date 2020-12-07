@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="file" name="image" id="image">
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <script>
+        var _URL = window.URL || window.webkitURL;
+
+        $("#image").change(function (e) {
+            var file, img;
+
+
+            if ((file = this.files[0])) {
+                img = new Image();
+                img.onload = function () {
+                    
+                    alert("pixsel = " +this.width + " " + this.height);
+                    var widtcm = (this.width * 2.54)/300 ;
+                    var heightcm = (this.height * 2.54)/300;
+
+                    
+                   
+                    alert("cm = " +widtcm.toFixed(2)+ "  " + heightcm.toFixed(2))
+                    alert("inch = "+(widtcm/2.54).toFixed(2) + "  " + (heightcm/2.54).toFixed(2) )
+                };
+                img.onerror = function () {
+                    alert("not a valid file: " + file.type);
+                };
+                img.src = _URL.createObjectURL(file);
+
+
+            }
+
+        });
+    </script>
+</body>
+
+
+</html>
